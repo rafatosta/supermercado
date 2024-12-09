@@ -1,23 +1,15 @@
 package model;
 
 public class Cliente {
-    /**
-     * Atributos
-     */
+
     private String nome;
     private String cpf;
 
-    /**
-     * Construtor
-     */
     public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
     }
 
-    /**
-     * Métodos
-     */
     public String getNome() {
         return nome;
     }
